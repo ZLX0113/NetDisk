@@ -1,0 +1,33 @@
+# ===== 构建产物目录 =====
+build*/
+
+# ===== 编译中间文件 =====
+*.o
+*.obj
+
+# ===== 可执行文件 / 动态库 / 静态库 =====
+*.exe
+*.dll
+*.a
+*.so
+
+# ===== Qt 自动生成文件 =====
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+.qmake.stash
+Makefile
+Makefile.Debug
+Makefile.Release
+object_script.*
+*.pro.user
+*.pro.user.*
+
+# ===== 数据 / 临时文件 =====
+*.db
+*.mp4
+*.log
+
+# ===== 服务器编译产物 =====
+NetDisk/src/server
