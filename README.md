@@ -88,7 +88,7 @@ mingw32-make
 #define _DEF_DB_NAME    "NetDisk"
 #define _DEF_DB_IP      "localhost"
 #define _DEF_DB_USER    "root"
-#define _DEF_DB_PWD     "666666"
+#define _DEF_DB_PWD     "your_password"
 ```
 
 > 使用前请先在 MySQL 中创建 `NetDisk` 数据库及相应表结构，并确保数据库连接信息与本地环境一致。
